@@ -13,7 +13,7 @@ $(document).ready(function() {
   })
   //Complete item
   .on('click', '.complete-button', function() {
-    $(this).parent().css('background-color', '#0DFF87');
+    $(this).parent().css('background-color', '#50ABF9');
     $(this).remove();
   })
   //Remove item

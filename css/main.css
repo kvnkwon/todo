@@ -7,7 +7,7 @@
 }
 
 .item-container {
-  background-color: #DDDDDD;
+  background-color: #E5F9C8;
   margin: 1.5em 5em;
   padding: 1em;
   border: 3px solid black;
@@ -28,4 +28,12 @@
 
 .complete-button {
   margin-right: 0.5em;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.blue {
+  color: #50ABF9;
 }
