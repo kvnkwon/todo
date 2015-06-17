@@ -2,18 +2,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
-  body .item-container {
-    margin: 1em 0;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  body .list-title {
-    font-size: 4em;
-  }
-}
-
 .item-container {
   background-color: #B6B6B6;
   margin: 1.5em 2em;
@@ -51,4 +39,16 @@ html {
 
 .list-items {
   font-family: 'Cabin', serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .item-container {
+    margin: 1em 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .list-title {
+    font-size: 4em;
+  }
 }
