@@ -7,10 +7,10 @@
 }
 
 .item-container {
-  background-color: #E5F9C8;
+  background-color: #B6B6B6;
   margin: 1.5em 5em;
   padding: 1em;
-  border: 3px solid black;
+  border-radius: 3px;
 }
 
 .item-container p {
@@ -24,6 +24,7 @@
 }
 
 .instructions {
+  display: none;
   margin-top: 1em;
   font-family: 'Cabin', serif;
 }
