@@ -6,7 +6,7 @@ $(document).ready(function() {
     event.preventDefault();
     var itemToAdd = $('input[name="item-input"]').val().trim();
     if (itemToAdd) {
-      var formattedItem = $('<div class="item-container"><p>' + itemToAdd + '</p><button class="btn btn-success complete-button"><i class="fa fa-check-square"></i></button><button class="btn btn-danger remove-button"><i class="fa fa-trash"></i></button></div>').hide().fadeIn(1000);
+      var formattedItem = $('<div class="item-container"><p>' + itemToAdd + '</p><button class="btn btn-success complete-button"><i class="fa fa-check-square"></i></button><button class="btn btn-danger remove-button"><i class="fa fa-trash"></i></button></div>').hide().fadeIn(800);
       $('.list-items').append(formattedItem);
     }
     $('#inputTask').val('');
@@ -17,7 +17,7 @@ $(document).ready(function() {
   .on('click', '.complete-button', function() {
     $(this).parent().animate({
       backgroundColor: "#50ABF9"
-    }, 1000);
+    }, 400);
     $(this).remove();
   })
   //Remove item
