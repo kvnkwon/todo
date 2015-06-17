@@ -8,6 +8,8 @@ $(document).ready(function() {
     if (itemToAdd) {
       $('.list-items').append('<div class="item-container"><p>' + itemToAdd + '</p><button class="btn btn-success complete-button"><i class="fa fa-check-square"></i></button><button class="btn btn-danger remove-button"><i class="fa fa-trash"></i></button></div>');
     }
+    $('#inputTask').val('');
+    $('#inputTask').focus();
   })
   //Complete item
   .on('click', '.complete-button', function() {
