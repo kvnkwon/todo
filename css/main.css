@@ -20,10 +20,12 @@
 .list-title {
   font-size: 6em;
   margin-bottom: 0.3em;
+  font-family: 'Bree Serif', serif;
 }
 
 .instructions {
   margin-top: 1em;
+  font-family: 'Cabin', serif;
 }
 
 .complete-button {
@@ -36,4 +38,8 @@
 
 .blue {
   color: #50ABF9;
+}
+
+.list-items {
+  font-family: 'Cabin', serif;
 }
